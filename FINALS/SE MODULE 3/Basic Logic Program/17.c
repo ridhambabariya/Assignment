@@ -6,7 +6,7 @@ Calculate person’s insurance premium based on salary
 #define s scanf
 int main()
 {
-    double sal,rate;
+    long int sal,rate;
     p("Enter Your Salary = ");
     s("%ld",&sal);
     p("\nEnter the premier rate = ");

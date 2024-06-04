@@ -6,7 +6,7 @@ Calculate person’s Annual salary
 #define s scanf
 int main()
 {
-    double sal;
+    long int sal;
     p("Enter Your Monthly Salary = ");
     s("%ld",&sal);
     p("\nYour Annual Salary will be %ld",sal*12);

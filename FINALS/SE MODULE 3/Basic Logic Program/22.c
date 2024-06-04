@@ -9,7 +9,7 @@ b. Compound Interest = Amount – P
 #define s scanf
 int main()
 {
-    double principal,rate,time,ci,amount;
+    long int principal,rate,time,ci,amount;
     p("Enter Principal = ");
     s("%ld",&principal);
     p("\nEnter the interest rate = ");

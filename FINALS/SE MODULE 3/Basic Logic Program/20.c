@@ -7,7 +7,7 @@ Accept monthly salary from the user and deduct 10% insurance premium,
 #define s scanf
 int main()
 {
-    double sal,ip;
+    long int sal,ip;
     p("Enter the annual salary = ");
     s("%ld",&sal);
     ip=(10*sal)/100;

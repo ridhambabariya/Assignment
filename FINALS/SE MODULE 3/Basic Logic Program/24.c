@@ -7,14 +7,14 @@ Accept 5 employees name and salary and count average and total salary
 struct Emp
 {
     char name[15];
-    double sal;
+    long int sal;
 };
 
 int main()
 {
     struct Emp e[5];
     int i,j=0;
-    double total;
+    long int total;
     for(i=1;i<=5;i++)
     {
         p("Enter the name of employee no. %d",i);

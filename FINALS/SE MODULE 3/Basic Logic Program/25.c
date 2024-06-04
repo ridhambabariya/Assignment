@@ -7,7 +7,7 @@ Accept 5 expense from user and find average of expense
 
 int main()
 {
-    double exp[5],total;
+    long int exp[5],total;
     int i,j=0;
     for(i=1;i<=5;i++)
     {

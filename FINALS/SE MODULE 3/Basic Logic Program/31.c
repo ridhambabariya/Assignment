@@ -6,7 +6,7 @@ Convert kilometers into meters
 #define s scanf
 int main()
 {
-    double km;
+    long int km;
     p("Enter the number of kilometeres = ");
     s("%ld",&km);
     p("\n%ld Kilometeres = %ld meter",km*1000);
