@@ -11,6 +11,6 @@ int main()
     p("Enter the annual salary = ");
     s("%ld",&sal);
     ip=(10*sal)/100;
-    p("Remaining Salary will be %ld",sal-(ip*2));
+    p("\nRemaining Salary will be %ld",sal-(ip*2));
     return 0;
 }

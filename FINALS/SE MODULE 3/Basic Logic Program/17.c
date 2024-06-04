@@ -9,8 +9,8 @@ int main()
     double sal,rate;
     p("Enter Your Salary = ");
     s("%ld",&sal);
-    p("Enter the premier rate = ");
+    p("\nEnter the premier rate = ");
     s("%ld",&rate);
-    p("Your Insurance premium will be of %ld",sal*rate);
+    p("\nYour Insurance premium will be of %ld",sal*rate);
     return 0;
 }

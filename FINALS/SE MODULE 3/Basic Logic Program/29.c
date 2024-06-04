@@ -11,7 +11,7 @@ int main()
     s("%f",&minute);
     sec = minute * 60;
     hour = minute / 60;
-    p("%.1f Minutes = %.0f Seconds",minute,sec);
-    p("%.1f Minutes = %.1f Hours",minute,hour);
+    p("\n%.1f Minutes = %.0f Seconds",minute,sec);
+    p("\n%.1f Minutes = %.1f Hours",minute,hour);
     return 0;
 }

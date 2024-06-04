@@ -9,9 +9,9 @@ int main()
     double principal,rate,time,ci,amount;
     p("Enter Principal = ");
     s("%ld",&principal);
-    p("Enter the interest rate = ");
+    p("\nEnter the interest rate = ");
     s("%ld",&rate);
-    p("Enter the time period = ");
+    p("\nEnter the time period = ");
     s("%ld",&time);
     amount = principal*pow((1+(rate/100)),time);
     ci=amount-principal;

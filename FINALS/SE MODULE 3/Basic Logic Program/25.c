@@ -20,4 +20,5 @@ int main()
         total = total + exp[i];
     }   
     p("Average expense will be %ld",total/5);
+    return 0;
 }

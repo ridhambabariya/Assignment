@@ -10,6 +10,6 @@ int main()
     char a[15];
     p("Enter the Name of the country = ");
     s("%s",&a);
-    p("%s%s%s",toupper(a[0],a[1],a[2]));
+    p("\n%s%s%s",toupper(a[0],a[1],a[2]));
     return 0;
 }

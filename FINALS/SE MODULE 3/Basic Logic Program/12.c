@@ -10,6 +10,6 @@ int main()
     int std;
     p("Enter the number of the students = ");
     s("%d",&std);
-    p("Total Required Apples are = %d",std*5);
+    p("\nTotal Required Apples are = %d",std*5);
     return 0;
 }

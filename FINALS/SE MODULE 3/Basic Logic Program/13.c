@@ -9,6 +9,6 @@ int main()
     char a;
     p("Enter the Character = ");
     s(" %c",&a);
-    p("The ascii value of %c is %d",a,a);
+    p("\nThe ascii value of %c is %d",a,a);
     return 0;
 }

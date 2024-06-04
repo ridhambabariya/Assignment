@@ -9,6 +9,6 @@ int main()
     int a;
     p("Enter the Number = ");
     s("%d",&a);
-    p("The ascii value of %d is %c",a,a);
+    p("\nThe ascii value of %d is %c",a,a);
     return 0;
 }

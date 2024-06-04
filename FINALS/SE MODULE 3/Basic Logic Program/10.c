@@ -9,10 +9,10 @@ int main()
     int w,l,h;
     p("Enter the side a = ");
     s("%d",&w);
-    p("Enter the side b = ");
+    p("\nEnter the side b = ");
     s("%d",&l);
-    p("Enter the side c = ");
+    p("\nEnter the side c = ");
     s("%d",&h);
-    p("The area of a rectangular prism is = %d",2*((w*l)+(h*l)+(h*w)));
+    p("\nThe area of a rectangular prism is = %d",2*((w*l)+(h*l)+(h*w)));
     return 0;
 }

@@ -9,6 +9,6 @@ int main()
     int a;
     p("Enter the side of the square = ");
     s("%d",&a);
-    p("The Area of Cube is = %d",6*a*a);
+    p("\nThe Area of Cube is = %d",6*a*a);
     return 0;
 }

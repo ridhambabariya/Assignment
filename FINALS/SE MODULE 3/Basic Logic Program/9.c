@@ -9,10 +9,10 @@ int main()
     int a,b,c;
     p("Enter the side a = ");
     s("%d",&a);
-    p("Enter the side b = ");
+    p("\nEnter the side b = ");
     s("%d",&b);
-    p("Enter the side c = ");
+    p("\nEnter the side c = ");
     s("%d",&c);
-    p("The circumference of Triangle is = %d",a+b+c);
+    p("\nThe circumference of Triangle is = %d",a+b+c);
     return 0;
 }

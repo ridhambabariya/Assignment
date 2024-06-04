@@ -9,8 +9,8 @@ int main()
     float b,h;
     p("Enter the base = ");
     s("%f",&b);
-    p("Enter the height = ");
+    p("\nEnter the height = ");
     s("%f",&h);
-    p("The Area of Cube is = %f",(1/2*(b*h)));
+    p("\nThe Area of Cube is = %f",(1/2*(b*h)));
     return 0;
 }

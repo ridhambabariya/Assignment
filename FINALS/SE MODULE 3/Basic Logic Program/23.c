@@ -9,9 +9,9 @@ int main()
     int num1,num2,num3;
     p("Enter the value of num1 = ");
     s("%d",&num1);
-    p("Enter the value of num2 = ");
+    p("\nEnter the value of num2 = ");
     s("%d",&num2);
-    p("swapped 2 numbers Using Multiplication and Division");
+    p("\nswapped 2 numbers Using Multiplication and Division");
     num1 = num1 * num2;
     num2 = num1 / num2;
     num1 = num1 / num2;

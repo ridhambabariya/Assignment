@@ -9,6 +9,6 @@ int main()
     double sal;
     p("Enter Your Monthly Salary = ");
     s("%ld",&sal);
-    p("Your Annual Salary will be %ld",sal*12);
+    p("\nYour Annual Salary will be %ld",sal*12);
     return 0;
 }

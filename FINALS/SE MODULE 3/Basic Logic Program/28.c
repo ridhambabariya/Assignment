@@ -12,4 +12,5 @@ int main()
     days = year * 365;
     months = year * 12;
     p("Days into years = %.0f\nMonths into years = %.2f",days,months);
+    return 0;
 }

@@ -9,6 +9,6 @@ int main()
     char a[15];
     p("Enter the Name of the school = ");
     s("%s",&a);
-    p("%s%s College",a[0],a[1]);
+    p("\n%s%s College",a[0],a[1]);
     return 0;
 }

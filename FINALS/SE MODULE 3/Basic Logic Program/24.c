@@ -27,4 +27,5 @@ int main()
     }   
     p("Total salary will be %ld",total);
     p("Average salary will be %ld",total/5);
+    return 0;
 }

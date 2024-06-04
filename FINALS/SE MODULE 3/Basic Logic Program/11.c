@@ -9,6 +9,6 @@ int main()
     int a;
     p("Enter the side = ");
     s("%d",&a);
-    p("The circumference of Square is = %d",4*a);
+    p("\nThe circumference of Square is = %d",4*a);
     return 0;
 }

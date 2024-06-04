@@ -9,8 +9,8 @@ int main()
     int w,l;
     p("Enter the width = ");
     s("%d",&w);
-    p("Enter the length = ");
+    p("\nEnter the length = ");
     s("%d",&l);
-    p("The Area of Rectangle is = %d",w*l);
+    p("\nThe Area of Rectangle is = %d",w*l);
     return 0;
 }

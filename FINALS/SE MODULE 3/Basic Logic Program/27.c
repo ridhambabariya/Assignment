@@ -12,4 +12,5 @@ int main()
     s("%d",&day);
     month=(float) day/30;
     p("Days into Months = %.2f",month);
+    return 0;
 }

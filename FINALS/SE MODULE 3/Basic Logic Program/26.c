@@ -11,4 +11,5 @@ int main()
     s("%f",&tempf);
     tempc = (tempf - 32) * (9/5);
     p("The temperature in Celsius will be = %ld",tempc);
+    return 0;
 }
