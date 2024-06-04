@@ -1,0 +1,20 @@
+Define the terms: Website, Webpage, Web browser, Web server, HTML, CSS
+
+Ans. --->
+Website
+ A website is a collection of related web pages, images, videos, that are hosted on one or more web servers and typically accessible via the internet through a domain name. Websites can be static, where content remains the same until manually updated, or dynamic, where content changes based on user interactions or other factors.
+
+Webpage
+A webpage is a single document on the internet, which can contain text, images, links, videos, and other multimedia. Webpages are written in HTML (HyperText Markup Language) and can be accessed through a web browser. Each webpage has a unique URL (Uniform Resource Locator) that allows users to navigate directly to it.
+
+Web Browser
+A web browser is a software application that allows users to access and interact with websites and webpages on the internet. Web browsers render HTML code and other web technologies to display the content of webpages. Popular web browsers include Google Chrome, Mozilla Firefox, Microsoft Edge etc....
+
+Web Server
+A web server is a computer system that hosts websites and delivers web pages to users upon request. It processes incoming network requests over HTTP (HyperText Transfer Protocol) and other protocols. When a user enters a URL in their web browser, the web server retrieves the corresponding webpage and sends it back to the browser for display.
+
+HTML (HyperText Markup Language)
+HTML is the standard markup language used to create and design webpages. HTML uses tags and attributes to define the structure and layout of a webpage, including headings, paragraphs, links, images, and other elements. HTML documents are plain text files that can be created and edited with any text editor.
+
+CSS (Cascading Style Sheets)
+CSS is a style sheet language used to design the presentation and layout of HTML documents. CSS controls the look and feel of a website, including properties like colors, fonts, style etc.... CSS allows for controlling in designing web pages.

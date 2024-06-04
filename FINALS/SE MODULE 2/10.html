@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    background-color: #b2ebf2;
+    padding: 20px;
+    border: 2px solid #0097a7;
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #d32f2f;
+    margin-bottom: 20px;
+}
+
+form {
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #0097a7;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+legend {
+    color: #d32f2f;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 10px;
+    color: #d32f2f;
+}
+
+input, select {
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #0097a7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #d32f2f;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+</style>
+<body>
+    <div class="container">
+        <h2>Individual Registration</h2>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>User Particulars</legend>
+                <label for="loginId">Login ID:</label>
+                <input type="text" id="loginId" name="loginId" required><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+
+                <label for="confirmPassword">Confirm Password:</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Personal Particulars</legend>
+                <label for="salutation">Salutation:</label>
+                <select id="salutation" name="salutation" required>
+                    <option value="">Select</option>
+                    <option value="Mr">Mr</option>
+                    <option value="Ms">Ms</option>
+                    <option value="Mrs">Mrs</option>
+                </select><br>
+
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required><br>
+
+                <label for="middleName">Middle Name:</label>
+                <input type="text" id="middleName" name="middleName"><br>
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required><br>
+
+                <label for="residentStatus">Resident Status:</label>
+                <select id="residentStatus" name="residentStatus" required>
+                    <option value="">Select</option>
+                    <option value="resident">Resident</option>
+                    <option value="non-resident">Non-Resident</option>
+                </select><br>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">Select</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="UK">UK</option>
+                </select><br>
+
+                <label for="email">Email ID:</label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="mobileNumber">Mobile Number:</label>
+                <input type="tel" id="mobileNumber" name="mobileNumber" required><br>
+            </fieldset>
+            <fieldset>
+                <legend>Account Particulars</legend>
+                <label for="accountNumber">15 Digit Account No:</label>
+                <input type="text" id="accountNumber" name="accountNumber" required><br>
+
+                <label for="nickName">Nick Name:</label>
+                <input type="text" id="nickName" name="nickName"><br>
+
+                <label for="fundTransfer">Fund Transfer:</label>
+                <select id="fundTransfer" name="fundTransfer" required>
+                    <option value="">Select</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend>Declaration</legend>
+                <p>I have read, understood and hereby agree to the Terms and Conditions in respect of all products and channels.</p>
+                <p>I understand that any changes in the terms and conditions applicable to this relationship would be made available to me on request at any IOB branches. I confirm that all accounts under this login name are operated singly and in case of joint account operated by either or survivor/anyone or survivor(s) under his/her joint name respectively. I do hereby declare that information furnished in this form is true to the best of my knowledge and belief.</p>
+            </fieldset>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </div>
+</body>
+</html>
