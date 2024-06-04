@@ -1,0 +1,6 @@
+ What is software? What is software engineering?
+
+ Ans. --->  Software is a collection of instructions and data that tell a computer how to work. it is the component of computers, which can't be touched physically.
+ so it is a set of instructions and data that tell a computer how to work. It comes in various forms such as system software, application software, and utility software.
+
+ Software engineering is the application of engineering approaches to the development, operation, and maintenance of software. It involves the use of principles from engineering and computer science to create software that is efficient.

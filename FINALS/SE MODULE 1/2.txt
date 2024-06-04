@@ -1,0 +1,7 @@
+ Explain types of software
+
+Ans. ---> There are 4 types of software
+1.System Software ---> Windows, macOS, Linux, Unix
+2.Application Software ---> Microsoft Word, Google Docs, Microsoft Excel.
+3.Utility Software ---> McAfee
+4.Development Software ---> Microsoft Visual Studio, IntelliJ IDEA, Eclipse

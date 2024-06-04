@@ -1,0 +1,44 @@
+What is Use case Diagram? Create a use-case on bill payment on paytm.
+
+Ans. ---> A use case diagram is a type of diagram defined by the UML that represents the interactions between users and a system to complete the task.
+
+Components of a Use Case Diagram:
+Actors: Entities that interact with the system.
+Use Cases: The actions or services provided by the system to fulfill the needs of the actors.
+System Boundary: A rectangle that defines the scope of the system.
+Relationships: Connections between user and use cases or between use cases themselves.
+
+             --------------------------
+                  Paytm System       
+             --------------------------
+                                     
+               -----------------     
+  ----------      Login             
+    User  ---->-----------------    
+  ----------                         
+               ------------------    
+                Select Bill        
+                Payment            
+               ------------------    
+                                     
+               ------------------    
+                Enter Bill         
+                Details            
+               ------------------    
+                                     
+               --------------------- 
+                Choose Payment     
+                Method             
+               --------------------- 
+                                     
+               --------------------- 
+                Confirm Payment    
+               --------------------- 
+                                     
+               --------------------- 
+                Process Payment    
+               --------------------- 
+                                     
+               --------------------- 
+                Send Confirmation  
+               --------------------- 

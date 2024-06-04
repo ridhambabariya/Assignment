@@ -1,0 +1,46 @@
+What is Flow chart? Create a flowchart to make addition of two numbers
+
+Ans. ---> A flowchart is a graphical representation of a process, system, or algorithm. It uses various symbols to represent different types of actions or steps in a process, connected by arrows to indicate the flow from one step to another. Flowcharts are used in many fields to design a process or program in various fields.
+
+Oval: Represents the start and end of a process.
+Rectangle: Represents a process step.
+Parallelogram: Represents input or output operations.
+Diamond: Represents decision points.
+Arrow: Indicates the flow of the process.
+
+Flowchart for Addition of Two Numbers
+Below is a simple flowchart for the process of adding two numbers:
+Start: Begin the process.
+Input: Get the first and second numbers from the user.
+Process: Add the two numbers.
+Output: Display the result.
+End: Terminate the process.
+
+   ---------
+    Start 
+   ---------
+       |
+       v
+  --------------
+   Input A    
+  --------------
+       |
+       v
+  --------------
+   Input B    
+  --------------
+       |
+       v
+  --------------
+   Sum = A - B
+  --------------
+       |
+       v
+  --------------
+   Output Sum 
+  --------------
+       |
+       v
+   ---------
+    End   
+   ---------
