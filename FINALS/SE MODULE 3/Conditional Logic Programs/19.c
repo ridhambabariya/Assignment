@@ -23,9 +23,9 @@ int main()
     float unit,total,charge;
     p("Enter Customer ID = ");
     s("%d",&cid);
-    p("Enter Customer Name = ");
+    p("\nEnter Customer Name = ");
     s("%s",name);
-    p("Enter units consumed = ");
+    p("\nEnter units consumed = ");
     s("%f",unit);
     if (unit<=350)
     {
@@ -52,10 +52,10 @@ int main()
     {
         total=256;
     }
-    p("Electricity Bill");
-    p("Customer ID = %d",cid);
-    p("Customer Name = %s",name);
-    p("Units Consumed = %.2f",unit);
-    p("Total Amount = Rs. %.2f",total);
+    p("\nElectricity Bill");
+    p("\nCustomer ID = %d",cid);
+    p("\nCustomer Name = %s",name);
+    p("\nUnits Consumed = %.2f",unit);
+    p("\nTotal Amount = Rs. %.2f",total);
     return 0;
 }

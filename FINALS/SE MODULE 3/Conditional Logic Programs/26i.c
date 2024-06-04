@@ -10,28 +10,28 @@ int main()
     switch(day)
     {
         case 1:
-            p("Monday\n");
+            p("\nMonday");
             break;
         case 2:
-            p("Tuesday\n");
+            p("\nTuesday");
             break;
         case 3:
-            p("Wednesday\n");
+            p("\nWednesday");
             break;
         case 4:
-            p("Thursday\n");
+            p("\nThursday");
             break;
         case 5:
-            p("Friday\n");
+            p("\nFriday");
             break;
         case 6:
-            p("Saturday\n");
+            p("\nSaturday");
             break;
         case 7:
-            p("Sunday\n");
+            p("\nSunday");
             break;
         default:
-            p("Invalid day number. Please enter a number between 1 and 7.\n");
+            p("\nInvalid day number. Please enter a number between 1 and 7.");
             break;
     }
    return 0;

@@ -9,15 +9,15 @@ int main()
     s("%d",&month);
     if(month==1 ||month==3 ||month==5 ||month==7 ||month==8 ||month==10 ||month==12)
     {
-        p("31 days in a month");
+        p("\n31 days in a month");
     }
     else if(month==2)
     {
-        p("28 days in a month");
+        p("\n28 days in a month");
     }
     else
     {
-        p("30 days in a month");
+        p("\n30 days in a month");
     }
     return 0;
 }

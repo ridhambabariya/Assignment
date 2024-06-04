@@ -33,6 +33,6 @@ int main()
     }
     charge = bill*0.20;
     bill = bill+charge;
-    p("Total electricity bill = Rs. %.2f",bill);
+    p("\nTotal electricity bill = Rs. %.2f",bill);
     return 0;
 }

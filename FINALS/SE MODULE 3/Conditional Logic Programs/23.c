@@ -10,43 +10,43 @@ int main()
     switch(num)
     {
         case 1:
-            p("January\n");
+            p("\nJanuary");
             break;
         case 2:
-            p("February\n");
+            p("\nFebruary");
             break;
         case 3:
-            p("March\n");
+            p("\nMarch");
             break;
         case 4:
-            p("April\n");
+            p("\nApril");
             break;
         case 5:
-            p("May\n");
+            p("\nMay");
             break;
         case 6:
-            p("June\n");
+            p("\nJune");
             break;
         case 7:
-            p("July\n");
+            p("\nJuly");
             break;
         case 8:
-            p("August\n");
+            p("\nAugust");
             break;
         case 9:
-            p("September\n");
+            p("\nSeptember");
             break;
         case 10:
-            p("October\n");
+            p("\nOctober");
             break;
         case 11:
-            p("November\n");
+            p("\nNovember");
             break;
         case 12:
-            p("December\n");
+            p("\nDecember");
             break;
         default:
-            p("Invalid month number. Please enter a number between 1 and 12.\n");
+            p("\nInvalid month number. Please enter a number between 1 and 12.");
             break;
     }
     return 0;

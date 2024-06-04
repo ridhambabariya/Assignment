@@ -19,10 +19,10 @@ int main()
         case 'I':
         case 'O':
         case 'U':
-            p("%c is a vowel.\n",ch);
+            p("\n%c is a vowel",ch);
             break;
         default:
-            p("%c is a consonant.\n",ch);
+            p("\n%c is a consonant",ch);
     }
     return 0;
 }
