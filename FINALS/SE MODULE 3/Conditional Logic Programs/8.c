@@ -8,23 +8,23 @@ person according to their height.
 int main()
 {
     int h;
-    p("Enter the height in centimeter = ");
+    p("\nEnter the height in centimeter = ");
     s("%d",&h);
     if(h<=150)
     {
-        p("Dwarf");
+        p("\nDwarf");
     }
     else if(h<=165)
     {
-        p("Average");
+        p("\nAverage");
     }
     else if(h<=195)
     {
-        p("Taller");
+        p("\nTaller");
     }
     else
     {
-        p("Abnormal height");
+        p("\nAbnormal height");
     }
     return 0;
 }

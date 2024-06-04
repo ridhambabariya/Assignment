@@ -5,8 +5,8 @@
 int main()
 {
     int num;
-    p("Enter the number = ");
+    p("Enter the number = \n");
     scanf("%d",&num);
-    (num%2==0) ? p("This is an even number\n",num) : p("This is an odd number\n",num);
+    (num%2==0) ? p("This is an even number\n",num) : p("This is an odd number",num);
     return 0;
 }

@@ -7,7 +7,7 @@ WAP to check whether a number is negative, positive or zero.
 int main()
 {
     int num;
-    p("Enter the number = ");
+    p("\nEnter the number = ");
     s("%d",&num);
     if(num>0)
     {

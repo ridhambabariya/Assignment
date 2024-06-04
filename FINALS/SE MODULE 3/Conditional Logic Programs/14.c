@@ -5,11 +5,11 @@
 int main()
 {
     int num1,num2,num3;
-    p("Enter the value of num1 = ");
+    p("\nEnter the value of num1 = ");
     s("%d",&num1);
-    p("Enter the value of num2 = ");
+    p("\nEnter the value of num2 = ");
     s("%d",&num2);
-    p("Enter the value of num3 = ");
+    p("\nEnter the value of num3 = ");
     s("%d",&num3);
     if(num1>=num2 && num1>=num3)
     {

@@ -15,10 +15,10 @@ int main()
     int marksMaths,marksPhysics,marksChemistry,totalMarks,totalMathsPhysics;
     p("\nInput the Physics marks = ");
     s("%d",&marksPhysics);
-    p("Input the Chemistry marks = ");
-    s("\n%d",&marksChemistry);
-    p("Input the Mathematics marks = ");
-    s("\n%d",&marksMaths);
+    p("\nInput the Chemistry marks = ");
+    s("%d",&marksChemistry);
+    p("\nInput the Mathematics marks = ");
+    s("%d",&marksMaths);
     totalMarks = marksMaths+marksPhysics+marksChemistry;
     totalMathsPhysics = marksMaths+marksPhysics;
     p("\nTotal marks of Maths, Physics and Chemistry = %d",totalMarks);
