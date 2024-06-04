@@ -10,10 +10,10 @@ int main()
     p("Entr the number of years = ");
     s("%f",&years);
     days = years * 365;
-    p("%.2f years = %.0f days");
-    p("Entr the number of days = ");
+    p("\n%.2f years = %.0f days");
+    p("\nEntr the number of days = ");
     s("%f",&days);
     years = days / 365;
-    p("%.0f days = %.2f years");
+    p("\n%.0f days = %.2f years");
     return 0;
 }
