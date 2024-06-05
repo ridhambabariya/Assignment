@@ -2,7 +2,7 @@
 Accept number of students from user. I need to give 5 apples to each 
 student. How many apples are required?
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

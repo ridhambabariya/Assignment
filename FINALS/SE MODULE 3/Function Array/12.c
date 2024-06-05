@@ -1,0 +1,1 @@
+/*WAP to accept 5 students name and store it in array*/

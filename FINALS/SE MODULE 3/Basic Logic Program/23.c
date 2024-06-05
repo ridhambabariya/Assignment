@@ -1,7 +1,7 @@
 /*
 WAP to calculate swap 2 numbers with using of multiplication and division.
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

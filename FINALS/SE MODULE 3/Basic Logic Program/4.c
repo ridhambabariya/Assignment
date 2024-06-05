@@ -1,7 +1,7 @@
 /*
 Find Area of Square formula : a = a2
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

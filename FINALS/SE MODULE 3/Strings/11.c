@@ -1,0 +1,1 @@
+/*Write a program in C to read a sentence and replace lowercase characters with uppercase and vice versa*/

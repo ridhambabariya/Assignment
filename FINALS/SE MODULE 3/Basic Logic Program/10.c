@@ -1,7 +1,7 @@
 /*
 find the area of a rectangular prism formula : A=2(wl+hl+hw)
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

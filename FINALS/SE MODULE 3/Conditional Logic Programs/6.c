@@ -1,5 +1,5 @@
 /*Find the Character Is Vowel or Not*/
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

@@ -1,7 +1,7 @@
 /*
 Accept 2 numbers and find out its sum check it size
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

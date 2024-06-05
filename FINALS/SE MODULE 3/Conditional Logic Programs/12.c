@@ -1,5 +1,5 @@
 /*WAP to find maximum number among 3 numbers using ternary operator*/
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

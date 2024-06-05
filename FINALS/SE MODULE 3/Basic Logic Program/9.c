@@ -1,7 +1,7 @@
 /*
 Find circumference of Triangle formula : triangle = a + b + c
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

@@ -1,5 +1,5 @@
 /*Accept marks from user and check pass or fail*/
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

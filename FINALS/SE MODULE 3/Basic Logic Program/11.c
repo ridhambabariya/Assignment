@@ -1,7 +1,7 @@
 /*
 Find circumference of square formula : C = 4 * a
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

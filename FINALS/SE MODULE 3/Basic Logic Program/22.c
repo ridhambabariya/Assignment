@@ -4,7 +4,8 @@ a. Formula to calculate compound interest annually is given by:
 Amount= P(1 + R/100)t
 b. Compound Interest = Amount – P
 */
-#include<stdio.h>
+#include <stdio.h>
+#include <math.h>
 #define p printf
 #define s scanf
 int main()

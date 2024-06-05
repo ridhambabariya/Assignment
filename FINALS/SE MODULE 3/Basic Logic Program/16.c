@@ -1,8 +1,8 @@
 /*
 16.Convert country’s name in abbreviated form
 */
-#include<stdio.h>
-#include<string.h>
+#include <stdio.h>
+#include <string.h>
 #define p printf
 #define s scanf
 int main()

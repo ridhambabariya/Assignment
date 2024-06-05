@@ -1,7 +1,7 @@
 /*
 Find area of Rectangle Formula : A=wl
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

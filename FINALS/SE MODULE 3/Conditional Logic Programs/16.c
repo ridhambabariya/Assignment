@@ -11,7 +11,8 @@ Temp >=40 then Its Very Hot
 #include <stdio.h>
 #define p printf
 #define s scanf
-int main() {
+int main()
+{
     float tmp;
     p("Enter the temperature here = ");
     s("%f",&tmp);

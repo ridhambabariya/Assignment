@@ -1,7 +1,7 @@
 /*
 Accept 5 expense from user and find average of expense
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 

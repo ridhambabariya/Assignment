@@ -1,0 +1,1 @@
+/*WAP to accept 5 numbers from user and display in reverse order using for loop and array*/

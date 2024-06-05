@@ -1,7 +1,7 @@
 /*
 Accept 5 employees name and salary and count average and total salary
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 struct Emp

@@ -1,7 +1,7 @@
 /*
 C Program to Read Integer and Print First Three Powers (N^1, N^2, N^3)
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

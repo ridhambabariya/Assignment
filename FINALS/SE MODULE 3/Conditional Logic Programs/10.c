@@ -1,7 +1,7 @@
 /*
 WAP to check whether a number is negative, positive or zero.
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

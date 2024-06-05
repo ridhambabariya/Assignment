@@ -1,7 +1,7 @@
 /*
 WAP to check if the given year is a leap year or not.
 */
-#include<stdio.h>
+#include <stdio.h>
 #define pi 3.14
 #define p printf
 #define s scanf

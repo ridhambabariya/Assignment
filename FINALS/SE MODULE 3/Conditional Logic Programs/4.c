@@ -1,6 +1,6 @@
 /*WAP to make simple calculator (operation include Addition, Subtraction,
 Multiplication, Division, modulo) using conditional statement*/
-#include<stdio.h>
+#include <stdio.h>
 #define pi 3.14
 #define p printf
 #define s scanf

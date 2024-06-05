@@ -2,7 +2,8 @@
 #include <stdio.h>
 #define p printf
 #define s scanf
-int main() {
+int main()
+{
     int a1,a2,a3;
     p("\nEnter the angle 1 = ");
     s("%d",&a1);

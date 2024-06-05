@@ -2,7 +2,7 @@
 Accept 2 numbers from user and swap 2 numbers with using 3rd variable 
 and without using 3rd variable
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()

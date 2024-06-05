@@ -1,7 +1,7 @@
 /*
 Find ascii value of given number
 */
-#include<stdio.h>
+#include <stdio.h>
 #define p printf
 #define s scanf
 int main()
