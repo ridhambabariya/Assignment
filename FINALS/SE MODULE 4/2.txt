@@ -1,0 +1,11 @@
+What is OOP? List OOP concepts
+
+Ans. ---> OOP stands for object oriented programming language which is based on a cocept of "Objects". which can contain data and code that manipulates that data. OOP is designed to improve the reusability, and maintainability of code.
+
+Here are the main cocepts of OOP listed down :
+1. Class
+2. Objects
+3. Encapsulation
+4. Inheritance
+5. Polymorphism
+6. Abstraction
