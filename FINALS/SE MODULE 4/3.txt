@@ -1,0 +1,11 @@
+What is the difference between OOP and POP?
+
+Ans. ---> 
+OOP means Object oriented programming
+POP means Procedure oriented programming
+
+OOPS uses "class" to create a program
+POP uses concept of calling Procedures and function
+
+OPPS Support Inheritance, Encapsulation, Polymorphism, Abstraction.
+POP does not have support of this fetures
