@@ -1,0 +1,20 @@
+Create Table Name : Student and Exam
+
+Creating Student table :
+CREATE TABLE STUDENT (
+    SID INT PRIMARY KEY,
+    FIRST_NAME VARCHAR(50),
+    LAST_NAME VARCHAR(50),
+    AGE INT,
+    GENDER VARCHAR(10),
+    CITY VARCHAR(50)
+);
+
+CreatING Exam table :
+CREATE TABLE Exam (
+    EID INT PRIMARY KEY,
+    SID INT,
+    SUBJECT VARCHAR(50),
+    MARKS INT,
+    FOREIGN KEY (SID) REFERENCES STUDENTS(SID)
+);

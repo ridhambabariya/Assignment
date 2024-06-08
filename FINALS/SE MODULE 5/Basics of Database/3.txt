@@ -1,0 +1,27 @@
+What is Difference between DBMS and RDBMS?
+
+Ans. ---> DBMS (Database Management System) and RDBMS (Relational Database Management System) are both software systems used to manage databases, but they have some differences:
+
+1.Data Model :
+   DBMS : A DBMS can support various data models like network and relational models.It will not enforce relationship between elements of database.
+   RDBMS: An RDBMS specifically use the relational model to organize data into tables with rows and columns and for that it uses foreign keys and primary keys.
+
+2.Data Integrity :
+   DBMS : While DBMS systems provide basic data integrity features.
+   RDBMS : RDBMS systems ensure data integrity by enforcing relation between tables.
+
+3.Query Language :
+   DBMS : DBMS system supports query languages specific to the data model they use.These languages will be different.
+   RDBMS : RDBMS systems use Structured Query Language SQL as the standard query language SQL
+
+4.Performance :
+   DBMS : DBMS systems may offer better performance for certain types of data models and applications due to their simplicity.
+   RDBMS : RDBMS systems are optimized for relational data models and typically offer better performance for large database and complex queries.
+
+5.Data Normalization :
+   DBMS : DBMS systems may or may not enforce data normalization depending on the used data model.
+   RDBMS : RDBMS systems support data normalization to avoid data redundancy and improve data integrity.
+
+6.Examples :
+   DBMS : Examples of DBMS = SQLite.
+   RDBMS : Examples of RDBMS = MySQL

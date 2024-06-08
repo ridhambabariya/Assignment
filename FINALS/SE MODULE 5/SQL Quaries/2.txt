@@ -1,0 +1,19 @@
+Create table given below : Employee and Incentive
+
+Creating Employee table :
+CREATE TABLE EMPLOYEES (
+    EID INT PRIMARY KEY,
+    FIRST_NAME VARCHAR(50),
+    LAST_NAME VARCHAR(50),
+    DEPARTMENTS VARCHAR(50),
+    SALARY DECIMAL(10,2)
+);
+
+Creating Incentive table :
+CREATE TABLE INCENTIVE (
+    IID INT PRIMARY KEY,
+    EID INT,
+    AMOUNT DECIMAL(10,2),
+    IDATE DATE,
+    FOREIGN KEY (EID) REFERENCES EMPLOYEES(EID)
+);

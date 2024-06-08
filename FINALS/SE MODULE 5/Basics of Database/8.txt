@@ -1,0 +1,23 @@
+What is SQL Key Constraints? writing an Example of SQL Key Constraints
+
+Ans.---> SQL key constraints are rules applied to columns or sets of columns in a database table to enforce data integrity and define relationships between tables. These constraints ensure that data stored in the database remains consistent and accurate
+The main types of key constraints in SQL are :
+1.Primary Key Constraint : A primary key constraint uniquely identifies each record or row in a table
+e.x. --->
+CREATE TABLE Employees(
+    EmployeeID INT PRIMARY KEY,
+    FirstName VARCHAR(50),
+    LastName VARCHAR(50),
+    DepartmentID INT
+);
+
+2.Foreign Key Constraint : A foreign key constraint establishes a relationship between two tables by enforcing reference integrity so basically it works on the concept of parent and child relation.
+e.x. --->
+CREATE TABLE Orders(
+    OrderID INT PRIMARY KEY,
+    ProductID INT,
+    CustomerID INT,
+    Quantity INT,
+    FOREIGN KEY (ProductID) REFERENCES Products(ProductID),
+    FOREIGN KEY (CustomerID) REFERENCES Customers(CustomerID)
+);

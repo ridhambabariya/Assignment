@@ -1,0 +1,3 @@
+Get First Name from employee table using Table name “Employee”
+
+SELECT FIRSTNAME FROM EMPLOYEE

@@ -1,0 +1,3 @@
+Retrieve the below data from above table
+
+SELECT * FROM CUSTOMER;

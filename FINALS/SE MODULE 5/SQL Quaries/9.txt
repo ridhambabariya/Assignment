@@ -1,0 +1,3 @@
+Select first_name, incentive amount from employee and incentives table forthose employees who have incentives and incentive amount greater than 3000
+
+SELECT E.FIRSTNAME,I.INCENTIVEAMOUNT FROM EMPLOYEE E JOIN INCENTIVE I ON E.EMPLOYEEID = I.EMPLOYEEID WHERE I.INCENTIVEAMOUNT > 3000;

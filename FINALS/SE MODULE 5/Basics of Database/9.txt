@@ -1,0 +1,12 @@
+What is save Point? How to create a save Point write a Query?
+
+Ans.---> A savepoint in SQL is a marker or point within a transaction that allows you to roll back part of a transaction to a specific point of time while preserving the changes made into that point it can be helpful when we want to undo the previous changes than we don't need to rollback entire databse changes we can rollback that portion only.
+
+To create a savepoint in SQL, you can use the 'SAVEPOINT' statement
+
+BEGIN TRANSACTION;
+INSERT INTO EMPLOYEES (EID,NAME) VALUES (101,'RAJ');
+SAVEPOINT mysavepoint;
+UPDATE EMPLOYEES SET EID = 103 WHERE NAME = 'RAJ';
+COMMIT;
+ROLLBACK TO mysavepoint;

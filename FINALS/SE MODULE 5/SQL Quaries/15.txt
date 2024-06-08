@@ -1,0 +1,3 @@
+All salespeople either in Barcelona or in London
+
+SELECT * FROM SALESPERSON WHERE CITY IN ('BARCELONA','LONDON');

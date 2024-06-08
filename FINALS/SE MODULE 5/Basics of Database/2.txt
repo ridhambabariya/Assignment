@@ -1,0 +1,16 @@
+What is Normalization?
+
+Ans. ---> Normalization in databases is the process of organizing data to minimize data redundancy and improve data integrity.It involves structuring a database into tables and defining relationships between tables.
+
+Normalization is very important so that same information not get stored and data remain consistent so that we can iprove the data integrity
+
+1.First Normal Form (1NF):
+    Ensure each table column has indivisible values.
+    Ensure each record is unique.
+2.Second Normal Form (2NF):
+    All the functionalities of 1NF.
+    Remove data that applies to multiple rows and put it in separate tables.
+    Use foreign keys to link these tables.
+3.Third Normal Form (3NF):
+    All the functionalities of 2NF.
+    Remove columns that are not dependent on the primary key.

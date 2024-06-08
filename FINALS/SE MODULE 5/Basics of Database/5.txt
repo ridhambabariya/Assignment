@@ -1,0 +1,8 @@
+What do you understand By Data Redundancy?
+
+Ans.---> Data redundancy refers to the duplication of data within a database or across multiple databases. It get generated when the same portion of the data is stored multiple times in different locations or in different tables within the same database
+
+It can occur in many forms like if we try to store same data in the table or in the same database various time or if multiple table contains the same data than by that duplicate data Data redundancy occurs.
+If the same copies of the data is stored in multiple tables in the same database then also this type of data Redundancy can occur.
+
+By this type of issue storage get wasted and also increase the cost for using various resources.It can generate some issues of data Inconsistency also because of change in the data in one location but no changes in other location and managing that data is also a big task itself so it requires more efforts and resources also.

@@ -1,0 +1,39 @@
+What is MF Cod Rule of RDBMS Systems?
+
+Ans. ---> MF cod in RDBMS staes that system must be qualify to manage the relational database through the relational capabilities so basically there are 12 Codd's rule for RDBMS.
+
+Rule 0 : The system have to qualify as relational database and as a 
+management system. 
+ 
+Rule 1 : The information rule : 
+All information in the database is to be represented in only one way in the form of tables in relation to rows and columns. 
+
+Rule 2 : The access grant rule :
+All data must be accessible with no possible meaning than once.
+
+Rule 3 : Systematic treatment of null values : 
+The DBMS have to allow each field to remain empty so that we can put empty field for the information which is inapplicable for that particullar field. for an example you are creating a database for school and have the field for alternate mobile number so this rule provide the facility that we can keep that field null.
+
+Rule 5 : The comprehensive data sublanguage rule : 
+The system must support at least one relational language that have the support for DML, DCL, TCL etc...
+
+Rule 6 : The view updating rule : 
+All views that are theoretically possible to update must be updated.
+
+Rule 7 : High-level insert, update delete : 
+The system should support the facilities of inserting the data, updating the data and deleting the data of the relational database.
+
+Rule 8: Physical data independence :  
+If the data is stored in Physical level like an array or any other Physical form then we don't need to change the whole structure of the database we can update the data that is Physical data independence
+
+Rule 9 : Logical data independence : 
+If the data is stored in Physical level like an array or any other Physical form then we don't need to change the whole structure of the database we can update the data that is Physical data independence and it is more difficult to achieve than the Physical data independence
+
+Rule 10 : Integrity independence: 
+Integrity constraints must specified seperate from the table so that we can easily change it without affecting the main application database
+
+Rule 11 : Distribution independence :  
+While distributing the part of the database from one location to another location should be seperate and hided from the user who is attracting with the database or using the database this is called the distribution independence
+
+Rule 12 : The nonsubversion rule : 
+If the system provides a low-level interface, then that interface cannot be used to subvert the system.

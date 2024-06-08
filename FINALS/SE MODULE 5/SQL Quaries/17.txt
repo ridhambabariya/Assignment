@@ -1,0 +1,3 @@
+All customers excluding those with rating <= 100 unless they are located inRome
+
+SELECT * FROM CUSTOMER WHERE RATING > 100 OR (RATING <= 100 AND CITY = 'ROME');

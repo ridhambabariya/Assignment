@@ -1,0 +1,16 @@
+What do you understand By Database?
+
+Ans. ---> A database is a structured collection of data that is organized in a way that can provide efficient storage and management of the data.It can help to store and managing the data as well.
+
+Top Features of Database is :
+
+1.Structure: Database organize data into tables.Which contains rows and columns.Each column represents a specific attribute or field,while each row represents a record or entry of that attribute or field.
+
+2.It can help to place a relationship between two tables or between two rows and columns
+
+3.Database provides a query language support so user can easily retrive the required data from large database according to their requirement by executing the query
+
+4.Multiple users can interact with databse and can modify or retrive the data so to manage the security database languages provides the support of transaction control languages
+
+Some common types of databases include relational database e.x. : MySQL, NoSQL e.x. : MongoDB etc....
+Each database has it's own usecase.
